@@ -3,29 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roblox Luau Portfolio</title>
+    <title>Ayden's Portfolio</title>
     <link rel="stylesheet" href="src/assets/styles.css">
     <script src="src/scripts/main.js" defer></script>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Roblox Luau Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="src/pages/index.html">Home</a></li>
-                <li><a href="src/pages/about.html">About</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>Featured Projects</h2>
-            <p>Explore my projects created using Roblox Luau.</p>
-            <!-- Add project thumbnails or links here -->
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2023 My Roblox Luau Portfolio</p>
-    </footer>
+    <div id="loader" class="loader"></div>
+    <div id="content" class="content hidden">
+        <header>
+            <h1>Ayden's Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="home">
+                <h2>Home</h2>
+                <p>Welcome to my portfolio! Here are my social links:</p>
+                <!-- Add social links here -->
+                <p align="center" style="font-size: 36px; font-weight: bold; text-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);">
+                    <span style="color: #8A2BE2; text-transform: uppercase; font-size: 40px; font-weight: 700; letter-spacing: 2px;">Top Programming Languages</span>
+                </p>
+                <p align="center">
+                    <a href="https://github.com/cveryskys/github-readme-stats" target="_blank">
+                        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cveryskys&layout=compact&theme=gray&langs_count=6&title_color=000000&text_color=808080&bg_color=ffffff&border_color=cccccc&icon_color=000000&custom_title=top%20langs" 
+                             alt="Top Langs" 
+                             style="border: 6px solid #8A2BE2; border-radius: 20px; box-shadow: 0 12px 35px rgba(0, 0, 0, 0.4); transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; transform: scale(1);">
+                    </a>
+                </p>
+            </section>
+            <section id="about">
+                <h2>About</h2>
+                <p>Learn more about me and my work.</p>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 Ayden's Portfolio</p>
+        </footer>
+    </div>
 </body>
 </html>
